@@ -16,7 +16,7 @@ SignalStack follows a service-oriented architecture where each component is resp
 
 Example high-level architecture:
 
-'''
+```bash
 Client
    │
    ▼
@@ -31,7 +31,7 @@ Gateway
    │
    ├── Logs
    └── Metrics
-'''
+```
 
 Services communicate primarily over HTTP APIs, with some background tasks handled by worker processes.
 
@@ -91,9 +91,9 @@ This allows experimentation with different infrastructure patterns without needi
 
 Eventually the full SignalStack platform will be runnable locally using Docker Compose.
 
-'''
+```bash
 docker compose up
-'''
+```
 
 This will start the core services required to run the platform.
 
@@ -101,25 +101,25 @@ This will start the core services required to run the platform.
 
 ## Repository Structure
 
-'''
+```bash
 signalstack/
-  platform
-  auth
-  cache
-  workers
-  gateway
-  logs
-  metrics
-  discovery
-  upload
-  webhooks
-  shortlink
-  chat
-  proxy
-  migrate
-  bench
-  cli
-'''
+  platform/
+  auth/
+  cache/
+  workers/
+  gateway/
+  logs/
+  metrics/
+  discovery/
+  upload/
+  webhooks/
+  shortlink/
+  chat/
+  proxy/
+  migrate/
+  bench/
+  cli/
+```
 
 Each service lives in its own repository and can be developed independently.
 
