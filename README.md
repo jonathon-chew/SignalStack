@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/signalstack-gopher.png" width="700">
+  <img src="assets/gopher.png" width="700">
 </p>
 
 <h1 align="center">SignalStack</h1>
