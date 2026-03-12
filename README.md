@@ -1,4 +1,11 @@
-# SignalStack
+<p align="center">
+  <img src="assets/signalstack-gopher.png" width="700">
+</p>
+
+<h1 align="center">SignalStack</h1>
+<p align="center">
+Distributed infrastructure services written in Go
+</p>
 
 SignalStack is an experimental ecosystem of Go services designed to explore modern backend infrastructure, distributed systems, and developer tooling.
 
