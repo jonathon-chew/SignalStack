@@ -1,1 +1,0 @@
-ffmpeg -i $filein -ss 00:00 -to 00:00 -filter:v 'scale=-1:1000' -r 15 $fileout
